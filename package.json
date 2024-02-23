@@ -1,0 +1,23 @@
+{
+  "name": "crosschainsdk",
+  "version": "1.0.9",
+  "description": "sdk for front-end and back-end interaction with crosschain smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typechain": "typechain --out-dir src --target=ethers-v5 'src/abis/*.json'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typechain/ethers-v5": "^11.1.2",
+    "@types/node": "^20.11.19",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ethers": "5.7"
+  }
+}
